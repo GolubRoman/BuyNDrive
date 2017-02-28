@@ -1,2 +1,2 @@
-Project "Buy'N'Drive"
-This project actualize work with SQL language and SQlite DataBase.
+Project "Buy'N'Drive".
+This project actualized work with SQL language and SQlite DataBase.
