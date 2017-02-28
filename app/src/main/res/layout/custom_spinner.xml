@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/custom_spinner"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:elevation="8dp"
+    android:background="@color/toolbarColor"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical"
+    tools:context="com.golubroman.golub.warehouse.MainActivity"
+    tools:showIn="@layout/content_main">
+
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:paddingTop="24dp"
+        android:background="@drawable/scroller_background2"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:typeface="serif"
+            android:textSize="18sp"
+            android:paddingLeft="16dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/title_background"
+            android:text="Spinner Text"
+            android:textColor="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            app:ms_hide_arrow="false"
+            app:ms_text_color="@color/colorPrimary"
+            android:elevation="16dp" />
+        <ImageView
+            android:id="@+id/tip"
+            android:layout_width="240dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:backgroundTint="@color/statusBarColor"
+        android:layout_marginRight="32dp"
+        android:layout_marginLeft="32dp"
+        android:alpha="0.5"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/darker_gray"/>
+
+</RelativeLayout>

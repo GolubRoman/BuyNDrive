@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="300dp">
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/add_condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:ms_hide_arrow="false"
+        app:ms_text_color="@color/colorPrimary"
+        android:elevation="16dp"/>
+    <com.jaredrummler.materialspinner.MaterialSpinner
+        android:id="@+id/add_saloon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:ms_hide_arrow="false"
+        app:ms_text_color="@color/colorPrimary"
+        android:elevation="16dp"/>
+
+    <EditText
+        android:id="@+id/add_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input car`s color..."
+        android:layout_margin="16dp"
+        android:elevation="16dp"/>
+
+    <EditText
+        android:id="@+id/add_car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input car`s name..."
+        android:layout_margin="16dp"
+        android:elevation="16dp"/>
+    <EditText
+        android:id="@+id/add_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input car`s price..."
+        android:layout_margin="16dp"
+        android:elevation="16dp"/>
+
+
+</LinearLayout>
