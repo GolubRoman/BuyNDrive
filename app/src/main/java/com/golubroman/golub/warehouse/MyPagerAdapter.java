@@ -8,6 +8,10 @@ import android.support.v4.app.FragmentStatePagerAdapter;
  */
 
 public class MyPagerAdapter extends FragmentStatePagerAdapter {
+
+    /* Adapter for storing the photos on ViewPager
+        */
+
     public MyPagerAdapter(FragmentManager fm) {
         super(fm);
     }

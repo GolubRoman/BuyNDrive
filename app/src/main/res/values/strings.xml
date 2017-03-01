@@ -1,4 +1,131 @@
 <resources>
+
     <string name="app_name">Buy\'N\'Drive</string>
     <string name="action_settings">Settings</string>
+    <string name="choose">Choose...</string>
+    <string name="cars_with_such"> cars with such specifications are available</string>
+    <string-array name="condition">
+        <item>Choose...</item>
+        <item>New</item>
+        <item>Used</item>
+        <item>New</item>
+        <item>New</item>
+        <item>Used</item>
+        <item>Used</item>
+        <item>New</item>
+        <item>Used</item>
+        <item>New</item>
+        <item>New</item>
+        <item>Used</item>
+        <item>Used</item>
+        <item>New</item>
+        <item>Used</item>
+        <item>New</item>
+        <item>New</item>
+        <item>Used</item>
+        <item>Used</item>
+    </string-array>
+
+    <string-array name="saloon">
+        <item>Choose...</item>
+        <item>Coupe</item>
+        <item>Sedan</item>
+        <item>Hatchback</item>
+        <item>Coupe</item>
+        <item>Sedan</item>
+        <item>Hatchback</item>
+        <item>Coupe</item>
+        <item>Sedan</item>
+        <item>Hatchback</item>
+        <item>Coupe</item>
+        <item>Sedan</item>
+        <item>Hatchback</item>
+        <item>Coupe</item>
+        <item>Sedan</item>
+        <item>Hatchback</item>
+        <item>Coupe</item>
+        <item>Sedan</item>
+        <item>Hatchback</item>
+    </string-array>
+
+    <string-array name="color">
+        <item>Choose...</item>
+        <item>White</item>
+        <item>Black</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+        <item>White</item>
+        <item>Black</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+        <item>White</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="car">
+        <item>Choose...</item>
+        <item>BMW X6</item>
+        <item>BMW X1</item>
+        <item>LandRover</item>
+        <item>Toyota Carina</item>
+        <item>Toyota Yaris</item>
+        <item>Mercedes Benz CLS</item>
+        <item>Mercedes Benz GLS</item>
+        <item>Wolksvagen Passat</item>
+        <item>Wolksvagen Golf</item>
+        <item>Opel Astra</item>
+        <item>Opel Corsa"</item>
+        <item>Volvo S60</item>
+        <item>Volvo S50</item>
+        <item>Citroen C4</item>
+        <item>Pegeout 308</item>
+        <item>Pegeout 408</item>
+        <item>Pegeout CC</item>
+        <item>Pegeout SW</item>
+    </string-array>
+
+    <string-array name="price">
+        <item>0</item>
+        <item>10000</item>
+        <item>20000</item>
+        <item>35000</item>
+        <item>5000</item>
+        <item>15000</item>
+        <item>25000</item>
+        <item>10000</item>
+        <item>20000</item>
+        <item>35000</item>
+        <item>5000</item>
+        <item>15000</item>
+        <item>25000</item>
+        <item>10000</item>
+        <item>20000</item>
+        <item>35000</item>
+        <item>5000</item>
+        <item>15000</item>
+        <item>25000</item>
+    </string-array>
+
+
+    <string-array name="condition_values">
+        <item>Choose...</item>
+        <item>New</item>
+        <item>Used</item>
+    </string-array>
+
+    <string-array name="column_names">
+        <item>Condition</item>
+        <item>Saloon</item>
+        <item>Color</item>
+        <item>Car</item>
+    </string-array>
+
 </resources>
